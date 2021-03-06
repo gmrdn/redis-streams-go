@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"log"
-	"time"
 
 	"github.com/go-redis/redis"
 	"github.com/rs/xid"
@@ -65,6 +64,6 @@ func main() {
 
 func handleNewTicket(ticketID string, ticketData string) error {
 	log.Printf("Handling new ticket id : %s data %s\n", ticketID, ticketData)
-	time.Sleep(100 * time.Millisecond)
+	// time.Sleep(100 * time.Millisecond)
 	return nil
 }

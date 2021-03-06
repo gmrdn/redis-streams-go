@@ -8,7 +8,7 @@ This project is a basic example of a publisher and consumers of a redis stream
 
 Start a local redis with :
 ```
-docker run --name mediumredis -d redis redis-server --appendonly yes
+docker run --name localredis -d redis redis-server --appendonly yes
 ```
 
 # Publisher
