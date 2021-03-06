@@ -18,3 +18,12 @@ The publisher sends 3000 messages to the redis stream
 cd publisher
 go run main.go
 ```
+
+# Consumer
+
+The consumer reads all the pending messages in the stream then aknowledges them
+
+```
+cd consumer
+go run main.go
+```
